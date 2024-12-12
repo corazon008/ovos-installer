@@ -25,12 +25,3 @@ else
   echo "Section [all] absente. Ajout de [all] et de 'dtoverlay=googlevoicehat-soundcard' à la fin."
   echo -e "\n[all]\ndtoverlay=googlevoicehat-soundcard" >> "$CONFIG_FILE"
 fi
-
-echo "Redémarrage nécessaire pour activer la configuration."
-read -p "Souhaitez-vous redémarrer maintenant ? (y/n): " REBOOT_NOW
-
-if [[ "$REBOOT_NOW" == "y" || "$REBOOT_NOW" == "Y" ]]; then
-  sudo reboot
-else
-  echo "Redémarrez manuellement plus tard pour appliquer les modifications."
-fi
