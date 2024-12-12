@@ -6,7 +6,7 @@ Own script to install Opên Voice OS
 sudo raspi-config
 ```
 
-### Activer SSH, SPI, I2C, etc.
+### Activer SPI, SERIAL
  
 1. **SPI** :  
    Active SPI (Serial Peripheral Interface) dans **Interface Options** si tu souhaites utiliser des périphériques électroniques qui communiquent via ce protocole.
