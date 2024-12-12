@@ -42,8 +42,3 @@ for SCRIPT in "${SCRIPTS[@]}"; do
 done
 
 echo "Tous les scripts ont été exécutés avec succès."
-
-# Exécuter le script d'installation OVOS
-echo "Exécution du script d'installation OVOS..."
-sudo sh -c "$(curl -fsSL https://raw.githubusercontent.com/OpenVoiceOS/ovos-installer/main/installer.sh)"
-
