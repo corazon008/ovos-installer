@@ -34,6 +34,7 @@ SCRIPTS=(
   "./banner.sh"
   "./increase_swap.sh"
   "./setup_google_aiy_v1.sh"
+#  "./automated-installation.sh"
 )
 
 # Boucle pour exécuter tous les scripts dans l'ordre

@@ -17,6 +17,8 @@ cp "$CONFIG_FILE" "${CONFIG_FILE}.bak"
 echo "Modification de $CONFIG_FILE pour désactiver l'audio HDMI."
 sed -i 's/^dtparam=audio=on/#dtparam=audio=on/' "$CONFIG_FILE"
 
+sed -i 's/^#dtparam=spi=on/dtparam=spi=on/' "$CONFIG_FILE"
+
 # Ajouter l'overlay Google Voice Hat
 if grep -q "^\[all\]" "$CONFIG_FILE"; then
   echo "Section [all] trouvée. Ajout de 'dtoverlay=googlevoicehat-soundcard' sous [all]."
