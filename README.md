@@ -25,10 +25,6 @@ sudo raspi-config
 2. **Timezone (Fuseau horaire)** :  
    Configure le fuseau horaire dans **Localisation Options** pour qu'il corresponde à ta localisation (par exemple, Europe/Paris).
 
-3. **Keyboard Layout** :  
-   Configure la disposition du clavier dans **Localisation Options** pour choisir un clavier adapté à ton utilisation (par exemple, un clavier français).
-
-
 ## How to use
 ```bash
 git clone https://github.com/corazon008/ovos-installer.git && cd ovos-installer && sudo bash ovos-installer.sh
