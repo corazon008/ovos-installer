@@ -7,17 +7,11 @@ sudo raspi-config
 ```
 
 ### Activer SSH, SPI, I2C, etc.
-
-1. **SSH** :  
-   Active SSH dans **Interface Options** pour pouvoir te connecter à distance à ton Raspberry Pi via un terminal ou un client SSH.
-   
-2. **SPI** :  
+ 
+1. **SPI** :  
    Active SPI (Serial Peripheral Interface) dans **Interface Options** si tu souhaites utiliser des périphériques électroniques qui communiquent via ce protocole.
 
-3. **I2C** (si nécessaire) :  
-   Si tu utilises des capteurs ou des périphériques qui nécessitent I2C, active cette option dans **Interface Options**.
-
-4. **Port série** :  
+2. **Port série** :  
    - Si tu n'as pas besoin de la console série, désactive-la dans **Interface Options**.  
    - L'option **"hardware serial"** doit rester activée si tu utilises des périphériques qui nécessitent une communication série matérielle.
 
